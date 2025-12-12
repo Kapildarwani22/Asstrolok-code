@@ -1,0 +1,461 @@
+import React from "react";
+import { StatusBarIphone } from "./StatusBarIphone";
+import frame427322497 from "./frame-427322497.svg";
+import group2 from "./group-2.png";
+import group from "./group.png";
+import icon2 from "./icon-2.svg";
+import icon3 from "./icon-3.svg";
+import icon from "./icon.svg";
+import image1 from "./image.png";
+import image from "./image.svg";
+import line4 from "./line-4.svg";
+import vector2 from "./vector-2.svg";
+import vector3 from "./vector-3.svg";
+import vector4 from "./vector-4.svg";
+import vector from "./vector.svg";
+
+export const ConsultationPage = () => {
+  return (
+    <div className="bg-[#f4fff1] overflow-hidden w-full min-w-[393px] h-[1447px] relative">
+      <div className="absolute w-[calc(100%_-_174px)] top-[2811px] left-[716px] h-[177px]">
+        <div className="absolute w-full top-0 left-0 h-[123px] flex bg-[#0000001a] rounded-[8.6px]">
+          <div className="flex-1 w-[218.63px] flex rounded-[8.6px] overflow-hidden bg-[url(/yt-image-hqdefault-jpg.png)] bg-cover bg-[50%_50%]">
+            <div className="mt-[102.9px] w-[22.67px] h-[14.34px] ml-[190.2px] flex bg-[#00000099] rounded-[2.87px]">
+              <div className="flex items-center justify-center mt-[0.7px] w-[17.18px] h-[12.9px] ml-[2.9px] [font-family:'Roboto-Medium',Helvetica] font-medium text-white text-[8.6px] tracking-[0] leading-[12.9px] whitespace-nowrap">
+                7:29
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="absolute h-[calc(100%_-_123px)] top-[123px] left-px w-[219px] flex flex-col gap-[4.3px] overflow-y-scroll">
+          <div className="ml-0 mr-[17.2px] flex-1 max-h-[28.67px] mt-[8.6px] flex">
+            <div className="h-[28.67px] flex-1 flex">
+              <p className="flex items-center justify-center mt-[1.4px] w-[201px] h-[25.81px] ml-0 [font-family:'Roboto-Medium',Helvetica] font-medium text-[#0f0f0f] text-sm tracking-[0] leading-[14.3px]">
+                How Astrology Really Works: Myths Busted! |<br />
+                Alok Khandelwal Ji
+              </p>
+            </div>
+          </div>
+
+          <div className="ml-0 mr-[17.2px] flex-1 max-h-[12.9px] flex gap-[2.6px]">
+            <div className="flex items-center justify-center w-[34.34px] h-[12.9px] [font-family:'Roboto-Regular',Helvetica] font-normal text-[#5f5f5f] text-sm tracking-[0] leading-[12.9px] whitespace-nowrap">
+              1K views
+            </div>
+
+            <div className="flex items-center justify-center mt-[1.4px] w-[3.16px] h-[10.04px] [font-family:'Roboto-Regular',Helvetica] font-normal text-[#5f5f5f] text-sm tracking-[0] leading-[12.9px] whitespace-nowrap">
+              •
+            </div>
+
+            <div className="flex items-center justify-center mt-0 w-[48.13px] h-[12.9px] [font-family:'Roboto-Regular',Helvetica] font-normal text-[#5f5f5f] text-sm tracking-[0] leading-[12.9px] whitespace-nowrap">
+              3 weeks ago
+            </div>
+          </div>
+        </div>
+
+        <div className="absolute w-[calc(100%_+_6px)] h-[calc(100%_+_6px)] top-[-3px] left-[-3px]" />
+      </div>
+
+      <div className="absolute top-[98px] left-[26px] w-[38px] h-[38px] flex bg-white rounded-[9.49px] border-[0.95px] border-solid border-[#f1f4f7]">
+        <img
+          className="mt-[12.3px] w-[15.19px] h-[13.29px] ml-[11.4px]"
+          alt="Icon"
+          src={icon}
+        />
+      </div>
+
+      <img
+        className="absolute top-[143px] left-[146px] w-[104px] h-[104px]"
+        alt="Image"
+        src={image1}
+      />
+
+      <div className="top-[258px] left-[calc(50.00%_-_68px)] [font-family:'Museo_Sans-700',Helvetica] text-[#222b45] text-xl tracking-[0.32px] whitespace-nowrap absolute font-normal text-center leading-[normal]">
+        Abhay Sharma
+      </div>
+
+      <img
+        className="absolute top-[108px] left-[364px] w-1 h-[17px]"
+        alt="Icon"
+        src={image}
+      />
+
+      <div className="absolute top-[364px] left-[26px] w-[104px] h-[123px]">
+        <div className="absolute w-[101.92%] h-[101.62%] top-0 left-0 bg-white rounded-[19.93px] shadow-[0px_9.49px_23.73px_#6a769a0d]" />
+
+        <div className="absolute w-[72.78%] top-[calc(50.00%_+_33px)] left-[13.77%] [font-family:'Museo_Sans_Rounded-500',Helvetica] font-normal text-[#6a769a] text-[11.4px] text-center tracking-[0.35px] leading-[normal]">
+          Consultations
+        </div>
+
+        <div className="absolute w-[48.84%] top-[calc(50.00%_+_14px)] left-[27.73%] [font-family:'Museo_Sans-700',Helvetica] font-normal text-[#222b45] text-[16.1px] text-center tracking-[0.49px] leading-[normal] whitespace-nowrap">
+          1000+
+        </div>
+
+        <img
+          className="absolute w-[44.55%] h-[48.46%] top-0 left-[28.18%]"
+          alt="Group"
+          src={group}
+        />
+      </div>
+
+      <div className="absolute top-[364px] left-[calc(50.00%_-_52px)] w-[104px] h-[123px]">
+        <div className="absolute w-[101.92%] h-[101.62%] top-0 left-0 bg-white rounded-[19.93px] shadow-[0px_9.49px_23.73px_#6a769a0d]" />
+
+        <div className="absolute top-[calc(50.00%_+_33px)] left-[calc(50.00%_-_31px)] [font-family:'Museo_Sans-500',Helvetica] font-normal text-[#6a769a] text-[11.4px] text-center tracking-[0.35px] leading-[normal]">
+          Experience
+        </div>
+
+        <div className="absolute w-[43.10%] top-[calc(50.00%_+_13px)] left-[30.45%] [font-family:'Museo_Sans-500',Helvetica] font-normal text-[#222b45] text-[15.2px] text-center tracking-[0.46px] leading-[normal] whitespace-nowrap">
+          10 Yrs
+        </div>
+
+        <img
+          className="absolute w-[44.55%] h-[48.46%] top-0 left-[28.18%]"
+          alt="Group"
+          src={group2}
+        />
+      </div>
+
+      <div className="absolute top-[364px] left-[263px] w-[104px] h-[123px]">
+        <div className="absolute w-[101.92%] h-[101.62%] top-0 left-0 bg-white rounded-[19.93px] shadow-[0px_9.49px_23.73px_#6a769a0d]" />
+
+        <div className="absolute w-[40.22%] top-[calc(50.00%_+_33px)] left-[32.61%] [font-family:'Museo_Sans-500',Helvetica] font-normal text-[#6a769a] text-[11.4px] text-center tracking-[0.35px] leading-[normal]">
+          Ratings
+        </div>
+
+        <div className="absolute w-[23.94%] top-[calc(50.00%_+_14px)] left-[39.09%] [font-family:'Museo_Sans-500',Helvetica] font-normal text-[#222b45] text-[16.1px] text-center tracking-[0.49px] leading-[normal] whitespace-nowrap">
+          4.5
+        </div>
+
+        <div className="absolute w-[44.55%] h-[48.46%] top-0 left-[28.18%]">
+          <div className="absolute w-[104.30%] h-[103.34%] top-0 left-[-2.15%] bg-[#fef6ec] rounded-[0px_0px_14.24px_14.24px]" />
+
+          <img
+            className="absolute w-[47.37%] h-[34.92%] top-[50.79%] left-[26.53%]"
+            alt="Icon"
+            src={icon2}
+          />
+        </div>
+      </div>
+
+      <div className="absolute w-[37.40%] top-[calc(50.00%_-_176px)] left-[6.76%] [font-family:'Museo_Sans-700',Helvetica] font-normal text-[#222b45] text-[17.1px] tracking-[0.29px] leading-[normal]">
+        About Consultant
+      </div>
+
+      <div className="w-[37.40%] left-[6.76%] [font-family:'Museo_Sans-700',Helvetica] text-[#008c3a] absolute top-[calc(50.00%_-_222px)] font-normal text-[17.1px] tracking-[0.29px] leading-[normal]">
+        About Consultant
+      </div>
+
+      <div className="w-[38.93%] left-[51.91%] [font-family:'Museo_Sans-500',Helvetica] text-[#222b45] absolute top-[calc(50.00%_-_222px)] font-normal text-[17.1px] tracking-[0.29px] leading-[normal]">
+        Book Consultation
+      </div>
+
+      <p className="absolute w-[86.77%] h-[25.85%] top-[40.01%] left-[6.62%] [font-family:'undefined-Regular',Helvetica] text-black text-[13.3px] tracking-[0.03px] leading-[13.3px] [-webkit-line-clamp:28] font-normal overflow-hidden text-ellipsis [display:-webkit-box] [-webkit-box-orient:vertical]">
+        Meet Astrologer Divyam Gupta — Your Companion in Celestial Guidance
+        <br />
+        <br />
+        Introducing Astrologer Divyam Gupta, an experienced Vedic astrologer
+        based in Kolkata who offers compassionate, insightful, and practical
+        guidance through online astrology consultation. Fluent in both Hindi and
+        English, Divyam brings over 5 years of experience to help seekers
+        interpret their life’s path through the lens of astrology.
+        <br />
+        <br />
+        With a background in B.Com and qualification in CA, Divyam also blends
+        his analytical skills with spiritual wisdom. His journey includes
+        expertise in graphology, teaching meditation with the Art of Living
+        organization, and a passion for revealing deeper truths through the
+        stars
+        <br />
+        <br />
+        His Approach &amp; Philosophy
+        <br />
+        <br />
+        Divyam Gupta views astrology not merely as prediction, but as a tool
+        of self-awareness. He harmonizes the timeless techniques of Vedic
+        astrology with modern sensibilities, making his readings relevant to
+        today’s life challenges.
+        <br />
+        <br />
+        Each consultation is tailored: no two charts or concerns are identical.
+        Divyam works with sincerity and empathy to reveal planetary patterns and
+        guide clients toward clarity
+        <br />
+        <br />
+        Services Offered via Online Astrology Consultation
+        <br />
+        <br />
+        You can seek support from Divyam through online or in-person sessions
+        via the Asttrolok platform. His service repertoire includes:
+        <br />
+        <br />
+        Career Consultation &amp; Career Prediction Astrology
+        <br />
+        <br />
+        Through career consultation Vedic astrology, Divyam studies your natal
+        chart to uncover your innate talents, professional direction, and the
+        timings most favorable for advancement. His career prediction astrology
+        sessions highlight how planetary cycles will influence your growth,
+        transitions, or challenges in work.
+        <br />
+        <br />
+        Marriage Life Astrology
+        <br />
+        <br />
+        If you’re looking for harmony in relationships, Divyam’s marriage life
+        astrology offerings dig into compatibility, emotional alignment, and the
+        timing of significant life events (such as marriage or partnership). He
+        compares charts to pinpoint strengths and potential friction areas.
+        <br />
+        <br />
+        Finance Prediction Astrology
+        <br />
+        <br />
+        Financial fluctuations often correlate with cosmic currents. In finance
+        prediction astrology, Divyam deciphers the planetary positions related
+        to wealth, investments, and prosperity. Through this lens, he offers
+        actionable suggestions to manage and grow your resources wisely.
+        <br />
+        <br />
+        Health Astrology
+        <br />
+        <br />
+        Understanding your well-being from an astrological vantage is vital.
+        With health astrology, Divyam maps the planetary influences on physical
+        and mental wellness, highlighting vulnerabilities and suggesting
+        preventive practices to maintain balance.
+        <br />
+        <br />
+        Remedies &amp; Support
+        <br />
+        <br />
+        Beyond predictions, Divyam offers remedial suggestions to align with the
+        cosmic energies in your favor—such as gemstones, mantras, yantras, or
+        rituals—based on classical systems and your unique chart.
+        <br />
+        <br />
+        Booking Your Session
+        <br />
+        <br />
+        <br />
+        Choose Duration: Opt for either a 15-minute or a 30-minute session via
+        the Asttrolok platform.
+        <br />
+        <br />
+        Select Mode: You may choose online or an in-person meeting (when
+        available).
+        <br />
+        <br />
+        Share Birth Details: Provide your date, exact time, and place of birth
+        for accurate chart preparation.
+        <br />
+        <br />
+        Specify Focus Areas: Share which aspects you’d like to explore (career,
+        marriage, finance, health, etc.).
+        <br />
+        <br />
+        Confirm Booking: Finalize your appointment and receive meeting details.
+        <br />
+        <br />
+        <br />
+        Once booked, you’ll obtain a link for your online session or address
+        information for in-person appointments.
+        <br />
+        <br />
+        Why Choose Divyam Gupta?
+        <br />
+        <br />
+        <br />
+        Experience &amp; Expertise: Over five years of proven practice in Vedic
+        astrology.
+        <br />
+        <br />
+        Personalized Insights: Consultations shaped specifically around your
+        chart and life concerns.
+        <br />
+        <br />
+        Clarity &amp; Accuracy: Readings targeted to real domains such as love,
+        health, career, and money.
+        <br />
+        <br />
+        Practical Remedies: Suggestions that you can apply—gemstones, mantras,
+        ritual guidance—to realign with beneficial energies.
+        <br />
+        <br />
+        <br />
+        What You’ll Gain
+        <br />
+        <br />
+        By booking an online astrology consultation with Divyam Gupta, you can
+        expect:
+        <br />
+        <br />
+        <br />
+        Clear insight into the planetary patterns shaping your life
+        <br />
+        <br />A roadmap for your career via career prediction astrology
+        <br />
+        <br />
+        Understanding and alignment in relationships through marriage life
+        astrology
+        <br />
+        <br />
+        Financial clarity from finance prediction astrology
+        <br />
+        <br />
+        Guidance for your health through health astrology
+        <br />
+        <br />
+        Remedies and steps you can take to harmonize with your destiny
+        <br />
+        <br />
+        <br />
+        Let the stars become your guide—connect with Astrologer Divyam Gupta
+        today to begin a transformative journey of understanding and growth.
+        <br />
+        <br />
+        <br />
+        Get started by booking your session now!
+      </p>
+
+      <button className="all-[unset] box-border absolute top-[1304px] left-6 w-[342px] h-[57px] overflow-hidden">
+        <div className="absolute w-[100.59%] h-[103.51%] top-0 left-0 bg-[#008c3a] rounded-[18.99px]" />
+
+        <div className="absolute w-[43.89%] top-[calc(50.00%_-_11px)] left-[28.11%] [font-family:'Museo_Sans-700',Helvetica] font-normal text-white text-base text-center tracking-[0.46px] leading-[normal] whitespace-nowrap">
+          Book Appointment
+        </div>
+      </button>
+
+      <div className="absolute w-[34.06%] top-[calc(50.00%_+_280px)] left-[6.62%] [font-family:'Museo_Sans_Cyrl-700',Helvetica] font-normal text-[#222b45] text-[17.1px] tracking-[0.29px] leading-[normal]">
+        Communication
+      </div>
+
+      <div className="absolute w-[50.97%] h-[3.28%] top-[71.94%] left-[6.62%]">
+        <div className="absolute w-[26.96%] top-[calc(50.00%_+_5px)] left-[28.44%] [font-family:'Museo_Sans-500',Helvetica] font-normal text-[#6a769a] text-[11.4px] tracking-[0.19px] leading-[normal]">
+          B.Com
+        </div>
+
+        <div className="absolute w-[16.48%] top-[calc(50.00%_+_5px)] left-[61.91%] [font-family:'Museo_Sans-500',Helvetica] font-normal text-[#6a769a] text-[11.4px] tracking-[0.19px] leading-[normal]">
+          CA
+        </div>
+
+        <div className="absolute w-[23.70%] h-full top-0 left-0">
+          <div className="absolute w-[104.21%] h-[104.21%] top-[-2.11%] left-[-2.11%] bg-[#eda1ab26] rounded-[14.24px]" />
+
+          <img
+            className="absolute w-px h-px top-[-1333px] left-[-5958px]"
+            alt="Icon"
+            src={icon3}
+          />
+        </div>
+
+        <div className="absolute w-[36.95%] top-[calc(50.00%_-_18px)] left-[28.44%] [font-family:'Museo_Sans-500',Helvetica] font-normal text-black text-[15.2px] tracking-[0.25px] leading-[normal] whitespace-nowrap">
+          Education
+        </div>
+
+        <img
+          className="absolute w-[14.48%] h-[50.56%] top-[25.34%] left-[4.49%]"
+          alt="Vector"
+          src={vector}
+        />
+      </div>
+
+      <p className="absolute w-[66.67%] top-[calc(50.00%_+_404px)] left-[21.12%] [font-family:'Museo_Sans-500',Helvetica] font-normal text-[#6a769a] text-[11.4px] tracking-[0.19px] leading-[normal]">
+        Have been a mentor for hundreds of people and guided them through
+        astrology and Spirituality
+      </p>
+
+      <div className="absolute w-[12.08%] h-[3.28%] top-[76.71%] left-[6.62%]">
+        <div className="relative w-[104.21%] h-[104.21%] top-[-2.11%] left-[-2.11%] bg-[#7acefa26] rounded-[14.24px]" />
+      </div>
+
+      <div className="absolute w-[22.39%] top-[calc(50.00%_+_382px)] left-[21.11%] [font-family:'Museo_Sans-500',Helvetica] font-normal text-black text-[15.2px] tracking-[0.25px] leading-[normal] whitespace-nowrap">
+        Experiences
+      </div>
+
+      <div className="inline-flex items-center justify-center gap-2.5 px-[7.76px] py-[2.33px] absolute top-[1216px] left-[83px] bg-[#e8e5e5] rounded-[11.64px] border-[0.2px] border-solid border-[#ccc9c9]">
+        <div className="relative w-fit mt-[-0.20px] [font-family:'Museo_Sans-500',Helvetica] font-normal text-[#6a769a] text-[8.8px] tracking-[0.15px] leading-[normal]">
+          Astrology
+        </div>
+      </div>
+
+      <div className="inline-flex items-center justify-center gap-2.5 px-[7.76px] py-[2.33px] absolute top-[1216px] left-[147px] bg-[#e8e5e5] rounded-[11.64px] border-[0.2px] border-solid border-[#ccc9c9]">
+        <div className="relative w-fit mt-[-0.20px] [font-family:'Museo_Sans-500',Helvetica] font-normal text-[#6a769a] text-[8.8px] tracking-[0.15px] leading-[normal]">
+          Palmistry
+        </div>
+      </div>
+
+      <div className="inline-flex items-center justify-center gap-2.5 px-[7.76px] py-[2.33px] absolute top-[1216px] left-[210px] bg-[#e8e5e5] rounded-[11.64px] border-[0.2px] border-solid border-[#ccc9c9]">
+        <div className="relative w-fit mt-[-0.20px] [font-family:'Museo_Sans-500',Helvetica] font-normal text-[#6a769a] text-[8.8px] tracking-[0.15px] leading-[normal]">
+          Numerology
+        </div>
+      </div>
+
+      <div className="absolute w-[12.08%] h-[3.28%] top-[82.10%] left-[6.62%]">
+        <div className="absolute w-[104.21%] h-[104.21%] top-[-2.11%] left-[-2.11%] bg-[#f7c48026] rounded-[14.24px]" />
+
+        <img
+          className="absolute top-[11px] left-3 w-[22px] h-[26px]"
+          alt="Vector"
+          src={vector2}
+        />
+      </div>
+
+      <div className="absolute w-[9.41%] top-[calc(50.00%_+_470px)] left-[21.11%] [font-family:'Museo_Sans-500',Helvetica] font-normal text-black text-[15.2px] tracking-[0.25px] leading-[normal] whitespace-nowrap">
+        Skills
+      </div>
+
+      <p className="absolute top-[285px] left-[calc(50.00%_-_100px)] w-[202px] [font-family:'Museo_Sans-500',Helvetica] font-normal text-[#6a769a] text-sm text-center tracking-[0.21px] leading-[normal]">
+        Astrologer <br />
+        Hindi, English, Odia, Marathi
+      </p>
+
+      <p className="top-[322px] left-[calc(50.00%_-_86px)] w-[173px] [font-family:'Museo_Sans-Regular',Helvetica] text-[#008c3a] text-[22.2px] tracking-[0.37px] absolute font-normal text-center leading-[normal]">
+        <span className="tracking-[0.08px]">₹2,000</span>
+
+        <span className="tracking-[0.08px]">/min</span>
+      </p>
+
+      <img
+        className="absolute top-[1121px] left-[38px] w-[25px] h-[26px]"
+        alt="Vector"
+        src={vector3}
+      />
+
+      <div className="inline-flex items-center gap-[5px] px-2.5 py-[5px] absolute top-[951px] left-[140px] rounded-[15px] border-[0.75px] border-solid border-[#6b779a]">
+        <div className="relative w-[54px] h-[18px] mt-[-0.75px] [font-family:'Museo_Sans-500',Helvetica] text-[#6a769a] text-[10px] tracking-[0.22px] leading-[19.0px] whitespace-nowrap [-webkit-line-clamp:0] font-normal overflow-hidden text-ellipsis [display:-webkit-box] [-webkit-box-orient:vertical]">
+          Read more
+        </div>
+
+        <img
+          className="relative w-[8.64px] h-[5px] aspect-[0.58]"
+          alt="Vector"
+          src={vector4}
+        />
+      </div>
+
+      <img
+        className="absolute top-[530px] left-0 w-[393px] h-px object-cover"
+        alt="Line"
+        src={line4}
+      />
+
+      <div className="absolute top-[528px] left-[19px] w-40 h-[3px] bg-[#008c3a] rounded-[50px]" />
+
+      <div className="flex flex-col w-[395px] items-center fixed -top-px left-[calc(50.00%_-_198px)] bg-white border-b [border-bottom-style:solid] border-[#94b19e]">
+        <StatusBarIphone
+          background={false}
+          className="!self-stretch !h-11 !left-[unset] !bg-white !w-full !top-[unset]"
+          levels="levels-2.svg"
+          timeClassName="![justify-content:unset]"
+          timeClassNameOverride="!text-asttrolokblack"
+        />
+        <img
+          className="relative self-stretch w-full h-[47px]"
+          alt="Frame"
+          src={frame427322497}
+        />
+      </div>
+    </div>
+  );
+};
