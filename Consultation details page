@@ -1,0 +1,113 @@
+import React from "react";
+import { AvailableTime } from "./AvailableTime";
+import { DivWrapper } from "./DivWrapper";
+import { Experience } from "./Experience";
+import { FullName } from "./FullName";
+import { FullNameWrapper } from "./FullNameWrapper";
+import { Gender } from "./Gender";
+import { Group } from "./Group";
+import { July } from "./July";
+import { Patients } from "./Patients";
+import { Ratings } from "./Ratings";
+import { StatusBarIphone } from "./StatusBarIphone";
+import { YtdRichItem } from "./YtdRichItem";
+import frame427322497 from "./frame-427322497.svg";
+import icon3 from "./icon-3.svg";
+import icon4 from "./icon-4.svg";
+import image from "./image.png";
+import line4 from "./line-4.svg";
+
+export const ConsultationDetail = () => {
+  return (
+    <div className="bg-[#f4fff1] overflow-hidden w-full min-w-[393px] min-h-[1378px] relative">
+      <YtdRichItem />
+      <img
+        className="absolute top-[143px] left-[146px] w-[104px] h-[104px]"
+        alt="Image"
+        src={image}
+      />
+
+      <div className="top-[258px] left-[calc(50.00%_-_68px)] [font-family:'Museo_Sans-700',Helvetica] text-[#222b45] text-xl tracking-[0.32px] whitespace-nowrap absolute font-normal text-center leading-[normal]">
+        Abhay Sharma
+      </div>
+
+      <Patients />
+      <Experience />
+      <Ratings />
+      <p className="absolute top-[285px] left-[calc(50.00%_-_100px)] w-[202px] [font-family:'Museo_Sans-500',Helvetica] font-normal text-[#6a769a] text-sm text-center tracking-[0.21px] leading-[normal]">
+        Astrologer <br />
+        Hindi, English, Odia, Marathi
+      </p>
+
+      <p className="top-[322px] left-[calc(50.00%_-_86px)] w-[173px] [font-family:'Museo_Sans-Regular',Helvetica] text-[#008c3a] text-[22.2px] tracking-[0.37px] absolute font-normal text-center leading-[normal]">
+        <span className="tracking-[0.08px]">₹2,000</span>
+
+        <span className="tracking-[0.08px]">/min</span>
+      </p>
+
+      <div className="absolute w-[36.64%] top-[calc(50.00%_-_187px)] left-[6.76%] [font-family:'Museo_Sans-500',Helvetica] font-normal text-[#222b45] text-[17.1px] tracking-[0.29px] leading-[normal]">
+        About Consultant
+      </div>
+
+      <div className="absolute w-[39.44%] top-[calc(50.00%_-_188px)] left-[51.91%] [font-family:'Museo_Sans-700',Helvetica] font-normal text-[#008c3a] text-[17.1px] tracking-[0.29px] leading-[normal]">
+        Book Consultation
+      </div>
+
+      <img
+        className="absolute top-[530px] left-0 w-[393px] h-px object-cover"
+        alt="Line"
+        src={line4}
+      />
+
+      <div className="absolute top-[528px] left-[204px] w-40 h-[3px] bg-[#008c3a] rounded-[50px]" />
+
+      <July />
+      <AvailableTime />
+      <div className="absolute top-[854px] left-[22px] [font-family:'Museo_Sans-500',Helvetica] font-normal text-[#222b45] text-[14.2px] tracking-[0.24px] leading-[normal] whitespace-nowrap">
+        Person Details
+      </div>
+
+      <FullName />
+      <FullNameWrapper />
+      <DivWrapper />
+      <Group />
+      <Gender />
+      <button className="all-[unset] box-border absolute top-[1249px] left-6 w-[342px] h-[57px] overflow-hidden">
+        <div className="absolute w-[100.59%] h-[103.51%] top-0 left-0 bg-[#008c3a] rounded-[18.99px]" />
+
+        <div className="absolute w-[43.89%] top-[calc(50.00%_-_11px)] left-[28.11%] [font-family:'Museo_Sans-700',Helvetica] font-normal text-white text-base text-center tracking-[0.46px] leading-[normal] whitespace-nowrap">
+          Book Appointment
+        </div>
+      </button>
+
+      <div className="absolute top-[98px] left-2 w-[38px] h-[38px] flex bg-white rounded-[9.49px] border-[0.95px] border-solid border-[#f1f4f7]">
+        <img
+          className="mt-[12.3px] w-[15.19px] h-[13.29px] ml-[11.4px]"
+          alt="Icon"
+          src={icon3}
+        />
+      </div>
+
+      <img
+        className="absolute top-[108px] left-[364px] w-1 h-[17px]"
+        alt="Icon"
+        src={icon4}
+      />
+
+      <div className="flex flex-col w-[395px] items-center fixed -top-px left-[calc(50.00%_-_198px)] bg-white border-b [border-bottom-style:solid] border-[#94b19e]">
+        <StatusBarIphone
+          background={false}
+          className="!self-stretch !h-11 !left-[unset] !bg-white !w-full !top-[unset]"
+          levels="levels-2.svg"
+          timeClassName="![justify-content:unset]"
+          timeClassNameOverride="!text-asttrolokblack"
+        />
+        <img
+          className="relative self-stretch w-full h-[47px]"
+          alt="Frame"
+          src={frame427322497}
+        />
+      </div>
+    </div>
+  );
+};
